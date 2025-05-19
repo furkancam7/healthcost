@@ -1,0 +1,14 @@
+Age,Region,Chronic Conditions (comma-separated),Family History (comma-separated),Lifestyle Score (0-10),Have Health Insurance?,Prediction,Download PDF Report,flag,username,timestamp
+30,Turkey,'-,'-,5,true,"Predicted Annual Health Cost: $2,304.31
+
+Calculation Steps:
+Base Cost: Region: Turkey, Age Group: 30-39 (Değer: 2862.50)
+Chronic Conditions: -: +0.0 (Source: CDC, 2022, https://www.cdc.gov/) (Değer: 0.00)
+Lifestyle Score: Score: 5/10 -> Risk: +0.15 (Impact: World Health Organization, 2022, https://www.who.int/, Impact: 10-30% on healthcare costs) (Değer: 0.15)
+Total Risk Factor: Sum of all risk factors (Chronic Conditions + Family History + Lifestyle) (Değer: 0.15)
+Cost Before Insurance: Base Cost ($2,862.50) x (1 + Total Risk 0.15) (Değer: 3291.87)
+Insurance Discount: Applied 30% discount for insurance (Source: OECD, 2022, https://www.oecd.org/health/health-insurance.htm, Average discount: 30%) (Değer: 2304.31)
+
+Öneriler:
+- For your chronic conditions, regular doctor check-ups are recommended. (Source: CDC, 2022, https://www.cdc.gov/, Impact: Reduces complications by 30-50%)
+- Your lifestyle score is low. More exercise and healthy eating habits are recommended. (Source: WHO, 2022, https://www.who.int/, Impact: Can reduce healthcare costs by 20-30%)",flagged\Download PDF Report\29c5f716526e759e89b8\health_cost_prediction_20250517_022610.pdf,,,2025-05-17 02:26:11.610524

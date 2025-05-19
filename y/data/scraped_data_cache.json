@@ -1,0 +1,35 @@
+{
+    "timestamp": 1747496959.256692,
+    "data": {
+        "chronic_conditions": {
+            "diabetes": {
+                "cost": 9601,
+                "source": "https://www.cdc.gov/nchs/fastats/health-expenditures.htm"
+            },
+            "hypertension": {
+                "cost": 7200,
+                "source": "https://www.cdc.gov/nchs/fastats/health-expenditures.htm"
+            },
+            "depression": {
+                "cost": 4800,
+                "source": "https://www.cdc.gov/nchs/fastats/health-expenditures.htm"
+            },
+            "obesity": {
+                "cost": 7200,
+                "source": "https://www.cdc.gov/nchs/fastats/health-expenditures.htm"
+            },
+            "asthma": {
+                "cost": 3266,
+                "source": "https://www.lung.org/research/trends-in-lung-disease"
+            },
+            "copd": {
+                "cost": 9600,
+                "source": "https://www.lung.org/research/trends-in-lung-disease"
+            }
+        },
+        "family_history": {},
+        "regional_costs": {},
+        "insurance_discount": 0.3,
+        "last_updated": "2025-05-17"
+    }
+}
