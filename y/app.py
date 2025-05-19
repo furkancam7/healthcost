@@ -11,7 +11,7 @@ import time
 from google.api_core import retry
 
 # Initialize Gemini
-client = genai.Client(api_key="AIzaSyBUuxzgwZyi2Dab3dihgbLA3kXzASuw_yw")
+client = genai.Client(api_key="")
 
 # Initialize the predictor agent
 agent = HealthCostPredictorAgent(load_costs(), load_weights())
